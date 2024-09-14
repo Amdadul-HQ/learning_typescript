@@ -39,3 +39,6 @@ console.log(a)
 const arr: number[] = [1, 2, 3, 4]
 
 console.log(arr);
+
+// tuple
+const tuple : [string, number] = ["Rimon", 22]
