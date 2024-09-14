@@ -1,6 +1,10 @@
-const arrayString: [string, string,rest:number] = ["Rimon", "Hossain"]
-const arrayNumber: number[] = [1, 2, 3, 4]
+const arrayString: [string, string,rest?: string] = ["Rimon", "Hossain"]
 
 console.log(arrayString)
 
-arrayString.push(...arrayNumber)
+const string: string = 'Amdadul'
+
+arrayString.push(string)
+
+console.log(arrayString)
+
