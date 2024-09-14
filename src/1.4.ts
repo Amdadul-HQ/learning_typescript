@@ -42,5 +42,5 @@ console.log(arr);
 
 // tuple
 const tuple: [string, number] = ["Rimon", 22]
-
 console.log(tuple)
+
