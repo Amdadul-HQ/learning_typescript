@@ -1,4 +1,5 @@
 const user: {
+    company : "Monster Studio" //literal type
     firstName: string,
     lastName: string,
     age: number,
@@ -7,6 +8,7 @@ const user: {
         country: string
     }
 } = {
+    company: "Monster Studio",
     firstName: "Rimon",
     lastName: "Hossain",
     age: 22,
