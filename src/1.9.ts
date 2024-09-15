@@ -1,4 +1,4 @@
-type Studenst = {
+{type Studenst = {
     name: string,
     age: number,
     roll: number,
@@ -7,7 +7,7 @@ type Studenst = {
     class:string
 }
 
-const studenst1 = {
+const studenst1 :Studenst = {
     name: "Rimon",
     age: 22,
     roll: 1,
@@ -15,3 +15,13 @@ const studenst1 = {
     marks: 80,
     class: "10"
 }
+
+type User = {
+    name: string,
+    address: string,
+}
+
+const user :User = {
+    name: "Rimon",
+    address: "Dhaka"
+}}
