@@ -17,4 +17,12 @@
         age: 22
     })
 
+    const createArrayWithTuple = <T,U> (value1: T, value2: U) : [T, U] => {
+        return [value1, value2]
+    }
+
+    const result = createArrayWithTuple<string, number>("Rimon", 22)
+    
+
+
 }
