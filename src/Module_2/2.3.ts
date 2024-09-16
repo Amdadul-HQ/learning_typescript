@@ -15,5 +15,40 @@
 
     const arryBool: GenericArray<boolean> = [true, false, true]
     
+    type UserObject = {
+        name: string,
+        address: string,
+        age: number
+    }
+    const user : GenericArray<UserObject> = [
+        {
+            name: "Rimon",
+            address: "Dhaka",
+            age: 22
+        },
+        {
+            name: "Hossain",
+            address: "Dhaka",
+            age: 10
+        }
+    ]
+
+    type GenericTuple<X, Y> = [X, Y]
+    
+    interface UserInterface {
+        name: string,
+        address: string,
+        age: number
+    }
+
+    type Roll = GenericArray<number>
+
+    const genericTuple: GenericTuple<Roll, UserInterface> = [
+        [1, 2, 3, 4, 5], {
+            name: "Rimon",
+            address: "Dhaka",
+            age: 22
+        }
+    ]
 
 }
