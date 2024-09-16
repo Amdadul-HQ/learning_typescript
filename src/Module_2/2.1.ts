@@ -13,5 +13,15 @@
 
     const result = kgToGram("5") as string
     const result2 = kgToGram(5) as number
+
+    type CustomErrorType = {
+        message:string
+    }
+    try {
+        
+    }
+    catch (error) {
+        console.log((error as CustomErrorType).message);
+    }
 }
 
