@@ -13,6 +13,8 @@
 
     const rimon: Vechials = "car"
     
+    const rimonhas: Vechials = "bike"
+    
     
 
 }
