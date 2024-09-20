@@ -26,4 +26,8 @@
     // Required 
     type PersonRequired = Required<Person>
 
+    // Partial
+
+    type PersonPartial = Partial<Person>
+
 }
