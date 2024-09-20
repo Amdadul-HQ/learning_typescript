@@ -2,28 +2,13 @@
 
     // conditional types
 
-    interface User {
-        car: boolean
-        bike: boolean
-        plane: boolean
-        train: boolean
-    }
+    type A1 = null
 
-    type Vechials = keyof User
+    type A2 = undefined
 
-    const rimon: Vechials = "car"
-    
-    const rimonhas: Vechials = "bike"
+    type A3 = A1 extends null ? true : false
 
-    type T = {
-        name: string,
-        age: number,
-        address: string,
-    }
-    
-    const createGeniricArray = <T>(value : T) : T[] => {
-        return [value]
-    }
+    type A4 = A1 extends null ? true : A2 extends undefined ? undefined : any
     
 
 }
