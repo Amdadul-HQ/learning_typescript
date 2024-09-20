@@ -4,7 +4,8 @@
     type Person = {
         name:string,
         age: number,
-        phone:string
+        phone: string,
+        email?: string
     }
 
     const age: Pick<Person, "age"> = {
@@ -21,5 +22,8 @@
         phone:"01811111111"
     }
 
+
+    // Required 
+    type PersonRequired = Required<Person>
 
 }
