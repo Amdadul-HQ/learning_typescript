@@ -11,15 +11,18 @@
         width: number
     }
 
-    type areaString = {
-        [key in keyof arearNumber]: string
+    type areaString<T> = {
+        [key in keyof T ]: T[key]
     }
 
     type Height = arearNumber["height"] // look up type
 
 
-
-
+    const area: areaString<{ height: number, width: string }> = {
+        height: 10,
+        width: '10'
+    }
+    
 
 
 }
