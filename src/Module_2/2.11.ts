@@ -15,6 +15,11 @@
         name: "rimon",
         age: 22
     }
+    // Omit 
+
+    const phone: Omit<Person, "name" | "age"> = {
+        phone:"01811111111"
+    }
 
 
 }
