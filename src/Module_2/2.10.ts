@@ -15,6 +15,10 @@
         [key in keyof arearNumber]: string
     }
 
+    type Height = arearNumber["height"] // look up type
+
+
+
 
 
 
