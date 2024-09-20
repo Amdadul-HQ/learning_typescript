@@ -38,6 +38,20 @@
         phone: "01811111111",
     } 
 
+    // Record Type 
+    // type MyObj = {
+    //     a: string,
+    //     b: number
+    // }
+
+    type MyObj = Record<string,string>
+    const myObj1: MyObj = {
+        a: 's',
+        b: '1',
+        c: "2",
+        d: "3"
+    }
+
 
 
 
