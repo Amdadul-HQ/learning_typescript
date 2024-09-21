@@ -52,6 +52,20 @@
         d: "3"
     }
 
+    type T = {
+        name: string,
+        hasbike: boolean,
+    }
+
+    type MyObj1 = Record<string, T>
+    
+    const myobject: MyObj1 = {
+        user: {
+            name: 'Amdadul',
+            hasbike:false
+        }
+    }
+
 
 
 
