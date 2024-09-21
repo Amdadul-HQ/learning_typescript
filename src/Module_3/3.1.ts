@@ -19,4 +19,5 @@
 
     const dog = new Animal("Tiger", "Bag", "Ghew Ghew")
     dog.makeSound()
+    const cat = new Animal("Peishin",'cat',"mew mew")
 }
