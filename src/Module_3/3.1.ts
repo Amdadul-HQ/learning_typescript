@@ -23,5 +23,5 @@
     cat.makeSound()
     const pakhi = new Animal("moina", "pakhi", "koooo kooooo")
     
-
+    console.log(pakhi);
 }
