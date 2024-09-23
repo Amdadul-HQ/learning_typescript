@@ -19,6 +19,6 @@
 
 
     console.log(result);
-    // console.log();
+    console.log(result2);
 
 }
