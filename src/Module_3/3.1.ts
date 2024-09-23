@@ -21,4 +21,7 @@
     dog.makeSound()
     const cat = new Animal("Peishin", 'cat', "mew mew")
     cat.makeSound()
+    const pakhi = new Animal("moina", "pakhi", "koooo kooooo")
+    
+
 }
