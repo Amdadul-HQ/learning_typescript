@@ -43,19 +43,9 @@
         name: "Rimon",
         role: "admin"
     }
-    getRole(adminUser)
+    
 
 
-
-
-
-    // const user = (param : NormalUser | AdminUser) : NormalUser | AdminUser => {
-    //     if ('role' in param) {
-    //         console.log(`${param.name} is a ${param.role}`);
-    //     } else {
-    //         console.log(`${param.name} is a normal user`);
-    //     }
-    // }
 
     // const result3 = user({name:"Rimon", role:"admin"})
     // user(result3)
