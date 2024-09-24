@@ -30,7 +30,7 @@
 
     const goriberAccount = new BankAccount(1, "Goriber", 1000);
     goriberAccount.addDiposit(500);
-    goriberAccount.getBalance();
+    goriberAccount.get_Balance();
 
 
 }
