@@ -33,5 +33,22 @@
             console.log("I am meawing");
         }
     }
+    const dog = new Dog("Tiger", "Bag");
+    dog.makeBark()
 
+    const cat = new Cat("Peishin", 'cat');
+    cat.makeMeaw()
+
+    const getAnimal = (animal: Animal) => {
+        if (animal instanceof Dog) {
+            animal.makeBark();
+        }
+        else if (animal instanceof Cat) {
+            animal.makeMeaw();
+        }
+        else {
+            animal.makeSound();
+        }
+    }
+    getAnimal(dog)
 }
