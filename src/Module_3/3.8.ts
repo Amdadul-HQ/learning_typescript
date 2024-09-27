@@ -59,5 +59,15 @@
         }
     }
 
+    const getShapeArea = (param: Shape) => {
+        return param.getArea()
+    }
+
+    const area = getShapeArea(new Circle(10))
+    const area2 = getShapeArea(new Rectangle(10, 10))   
+    const area3 = getShapeArea(new Rectangle(10, 20))
+
+    console.log('area', area, 'area2', area2, 'area3', area3);
+
 
 }
