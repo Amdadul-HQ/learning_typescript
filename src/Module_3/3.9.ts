@@ -4,14 +4,13 @@
     // 1. Interface
     // 2. Abstract Class
     interface Vhicle1 {
-        name: string;
-        model: number
+        startEngine(): void
+        stopEngine(): void
+        drive(): void
     }
 
     class Car implements Vhicle1 {
-        name: string
-        constructor(name: string) {
-            this.name = name
-        }
+   
     }
+
 }
