@@ -31,20 +31,16 @@
 
     // abstract class
     abstract class Car2 {
-      startEngine(): void {
-        console.log("Car start engine");
-      }
+      abstract startEngine(): void 
 
-      stopEngine(): void {
-        console.log("Car stop engine");
-      }
+      abstract stopEngine(): void 
 
-      drive(): void {
-        console.log("Car drive");
-      }
-      tast(): void {
-        console.log("Car tast");
-      }
+      abstract drive(): void 
+      abstract tast(): void 
+    }
+
+    class ToyotaCar extends Car2{
+
     }
 
     const hondaCar = new Car2();
