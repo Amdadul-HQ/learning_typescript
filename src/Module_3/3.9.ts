@@ -10,7 +10,19 @@
     }
 
     class Car implements Vhicle1 {
-   
+        startEngine(): void {
+            console.log('Car start engine');
+        }
+
+        stopEngine(): void {
+            console.log('Car stop engine');
+        }
+
+        drive(): void {
+            console.log('Car drive');
+        }
     }
+
+    const vhicle
 
 }
