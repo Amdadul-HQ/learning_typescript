@@ -40,11 +40,27 @@
     }
 
     class ToyotaCar extends Car2{
+        startEngine(): void {
+            console.log('ToyotaCar start engine');
+        }
 
+        stopEngine(): void {
+            console.log('ToyotaCar stop engine');
+        }
+
+        drive(): void {
+            console.log('ToyotaCar drive');
+        }
+        tast(): void {
+            console.log('ToyotaCar tast');
+         }
     }
 
-    const hondaCar = new Car2();
+    const hondaCar = new ToyotaCar();
     hondaCar.startEngine();
+    hondaCar.stopEngine();
+    hondaCar.drive();
+    hondaCar.tast();
 
 
 
