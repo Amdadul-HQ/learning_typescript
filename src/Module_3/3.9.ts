@@ -26,6 +26,12 @@
          }
     }
 
-    const vhicle
+    const vhicle = new Car();
+    vhicle.startEngine();
+
+    // abstract class
+    
+
+
 
 }
