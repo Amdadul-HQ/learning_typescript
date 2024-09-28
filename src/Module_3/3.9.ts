@@ -47,6 +47,9 @@
       }
     }
 
+    const hondaCar = new Car2();
+    hondaCar.startEngine();
+
 
 
 }
