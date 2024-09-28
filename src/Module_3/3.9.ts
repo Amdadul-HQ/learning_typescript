@@ -30,7 +30,22 @@
     vhicle.startEngine();
 
     // abstract class
-    
+    abstract class Car2 {
+      startEngine(): void {
+        console.log("Car start engine");
+      }
+
+      stopEngine(): void {
+        console.log("Car stop engine");
+      }
+
+      drive(): void {
+        console.log("Car drive");
+      }
+      tast(): void {
+        console.log("Car tast");
+      }
+    }
 
 
 
