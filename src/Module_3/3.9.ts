@@ -21,6 +21,9 @@
         drive(): void {
             console.log('Car drive');
         }
+        tast(): void {
+            console.log('Car tast');
+         }
     }
 
     const vhicle
