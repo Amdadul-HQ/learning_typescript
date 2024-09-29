@@ -6,9 +6,13 @@
     }
 
     type GradeFunc = (obj: Student) => number
-    
-    const getAvarage: GradeFunc = (obj) => {
-        return obj.grades.reduce((a,b)=> a+b)/obj.grades.length
+    type NumberArray = number[]
+    const getAvarage: GradeFunc = (obj: Student) => {
+        
+        const arr: NumberArray = obj.grades
+
+
+        return arr.reduce((a,b): number => a+b,0)/obj.grades.length
     }
 
     const student: Student = {
