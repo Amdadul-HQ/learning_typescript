@@ -14,6 +14,6 @@
         return str.repeat(num)
     }   
 
-    console.log(repeatString("Hello!", 3));
+    console.log(repeatString("Hello!", 4));
 
 }
