@@ -10,7 +10,7 @@
 
     type IRepeatString = (str:string,num:number) => string
 
-    const repeatString: IRepeatString = (str:string,num:number) => {
+    const repeatString: IRepeatString = (str:string,num:number):string => {
         return str.repeat(num)
     }   
 
