@@ -24,5 +24,5 @@
         }
     }
     const car1 = new Car("Toyota", "Corolla", 2020);
-    car1.displayInfo();
+    // car1.displayInfo();
 }
