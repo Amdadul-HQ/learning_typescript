@@ -24,5 +24,6 @@
         }
     }
     const car1 = new Car("Toyota", "Corolla", 2020);
-    // car1.displayInfo();
+    car1.displayInfo();
+    const car2 = new Car("Honda", "Civic", 2021);
 }
