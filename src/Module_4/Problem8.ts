@@ -23,5 +23,8 @@
             console.log(`Your car model is:  ${this.year} ${this.brand} ${this.model}`)
         }
     }
-    
+    const car1 = new Car("Toyota", "Corolla", 2020);
+    car1.displayInfo();
+    const car2 = new Car("Honda", "Civic", 2021);
+    car2.displayInfo();
 }
