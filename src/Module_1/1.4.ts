@@ -17,7 +17,8 @@ const x: undefined = undefined;
 // null
 
 const y: null = null
-
+console.log("hello")
+const s = "rimon"
 // any
 let z: any = "Rimon"
 console.log(z)
