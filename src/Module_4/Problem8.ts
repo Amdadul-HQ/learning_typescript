@@ -27,4 +27,5 @@
     car1.displayInfo();
     const car2 = new Car("Honda", "Civic", 2021);
     car2.displayInfo();
+    car2.displayInfo();
 }
